@@ -111,3 +111,40 @@ body {
   margin-left: 0px;
   margin-right: 400px;
 }
+
+.why-title {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.why-us {
+  display: flex;
+  flex-direction: column;
+  background-color: #31e366;
+}
+
+.why-content {
+  display: flex;
+  justify-content: center;
+}
+
+.content-one {
+  display: flex;
+  flex-direction: column;
+  margin-right: 370px;
+}
+
+.content-title {
+  color: white;
+  margin: 0 0 0 0;
+}
+
+.background {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 95vh;
+}
