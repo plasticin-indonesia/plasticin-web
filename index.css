@@ -53,6 +53,7 @@ body {
   justify-content: center;
   padding: 50px;
   background-color: #fafafa;
+  height: 230px;
 }
 
 .about-info {
@@ -62,6 +63,11 @@ body {
   font-size: 20px;
   color: #00a532;
 }
+.about-title {
+  display: flex;
+  margin-top: 0px;
+  padding-top: 0px;
+}
 
 .text {
   text-align: justify;
@@ -69,9 +75,39 @@ body {
   font-size: 15px;
   margin-top: 0px;
   color: black;
+  padding-top: 0px;
 }
 
 .about-photo {
   height: 180px;
-  padding-left: 400px;
+  padding-left: 410px;
+}
+
+.using {
+  display: flex;
+  justify-content: center;
+  margin-right: 800px;
+  color: #00a532;
+}
+
+.using-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 0px 0 0px;
+}
+
+.content-middle {
+  display: block;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.content-left {
+  margin-right: 60px;
+  margin-left: 440px;
+}
+
+.content-right {
+  margin-left: 0px;
+  margin-right: 400px;
 }
