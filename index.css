@@ -1,5 +1,7 @@
 body {
-    margin: 0;
-    width: 100%;
-    font-family: 'Nunito', sans-serif;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  font-family: "Nunito";
+  font-size: 14px;
 }
