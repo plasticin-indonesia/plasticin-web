@@ -183,3 +183,13 @@ a.button:hover {
   /* color: #fff; */
   background: purple;
 }
+
+.register-content {
+  display: flex;
+  background: url("/images/background.png");
+  min-height: 100vh;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
