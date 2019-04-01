@@ -187,9 +187,72 @@ a.button:hover {
 .register-content {
   display: flex;
   background: url("/images/background.png");
-  min-height: 100vh;
+  min-height: 90vh;
   color: #fff;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.register-title {
+  text-align: center;
+}
+
+.register-title span {
+  display: block;
+  font-size: small;
+}
+
+fieldset {
+  border-width: 0;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.forms {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input {
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px;
+  border: none;
+  background: rgba(229, 229, 229, 0.6);
+  color: #fff;
+  min-width: 200px;
+}
+
+.input::placeholder {
+  color: #eee;
+}
+
+#login,
+#register {
+  margin: 20px;
+}
+
+a.forgot-links {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button {
+  margin: 0;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+}
+
+.button.login {
+  background: #10c7ef;
+}
+
+.button.register {
+  background: #fc7c34;
+  text-transform: uppercase;
+  width: 100%;
 }
