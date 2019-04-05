@@ -40,7 +40,7 @@ body {
 .header {
   display: flex;
   justify-content: center;
-  padding: 50px;
+  padding: 30px;
   background-color: #00a532;
 }
 
@@ -78,7 +78,7 @@ body {
   justify-content: center;
   padding: 50px;
   background-color: #fafafa;
-  height: 200px;
+  height: 300px;
 }
 
 .about-info {
@@ -105,7 +105,7 @@ body {
 
 .about-photo {
   height: 180px;
-  padding-left: 510px;
+  padding-left: 410px;
 }
 
 .using {
