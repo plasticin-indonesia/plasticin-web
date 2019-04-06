@@ -12,9 +12,15 @@
       href="https://fonts.googleapis.com/css?family=Nunito"
     />
     <link rel="stylesheet" href="/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <div id="container" class="container">
+    <!-- <div id="container" class="container"> -->
       <nav id="navigation" class="navigation">
         <a href="/" class="logo">PlasticIn</a>
 
@@ -51,13 +57,49 @@
       </div>
 
       <h1 class="using">How to Use</h1>
-      <section class="using-content">
-        <p class="content-left">set your location</p>
-        <p class="content-middle">on a balanced your plastic waste</p>
-        <p class="content-right">
-          our crew will pick up & get your reward point !
-        </p>
-      </section>
+      <div class="row d-flex justify-content-center">
+        <div
+          class="card p-4 m-3"
+          style="width: 20rem; height: 20rem; height: 20rem;"
+        >
+          <img
+            class="card-img-top"
+            style="width: 255px;
+  height: 254px; align-self: center"
+            src="/images/map.svg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text text-center">Set yout location</p>
+          </div>
+        </div>
+        <div class="card p-4 m-3" style="width: 20rem; height: 20rem;">
+          <img
+            class="card-img-top"
+            style="width: 255px;
+  height: 254px; align-self: center"
+            src="/images/scale.svg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text text-center">On balanced your plastic waste</p>
+          </div>
+        </div>
+        <div class="card p-4 m-3" style="width: 20rem; height: 20rem;">
+          <img
+            class="card-img-top"
+            style="width: 255px;
+  height: 254px; align-self: center"
+            src="/images/delivery-truck.svg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text text-center">
+              Our crew will pick up & get reward point!
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
